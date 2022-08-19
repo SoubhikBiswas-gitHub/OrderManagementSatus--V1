@@ -65,7 +65,8 @@ header img {
 .main-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
+    width: 100%;
 }
 
 
@@ -141,6 +142,10 @@ header img {
     padding: 10px;
     display: none;
     border-radius: 20px;
+}
+
+.order-s{
+    width :100%
 }
 
 .order-status {
